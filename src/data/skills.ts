@@ -78,18 +78,18 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Reactjs",
         icon: ReactjsSvg,
       },
-      {
-        name: "Nextjs",
-        icon: SiNextdotjs,
-      },
+      // {
+      //   name: "Nextjs",
+      //   icon: SiNextdotjs,
+      // },
       {
         name: "Solidjs",
         icon: SolidjsSvg,
       },
-      {
-        name: "React Router Dom",
-        icon: ReactRouterDomIcon,
-      },
+      // {
+      //   name: "React Router Dom",
+      //   icon: ReactRouterDomIcon,
+      // },
       {
         name: "Redux",
         icon: ReduxSvg,
@@ -102,18 +102,18 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "MUI",
         icon: MuiSvg,
       },
-      {
-        name: "Framer motion",
-        icon: FramerMotionIcon,
-      },
+      // {
+      //   name: "Framer motion",
+      //   icon: FramerMotionIcon,
+      // },
       {
         name: "Vite",
         icon: ViteSvg,
       },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
-      },
+      // {
+      //   name: "Vite PWA",
+      //   icon: VitePwaIcon,
+      // },
     ],
   },
   {
@@ -123,18 +123,18 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Nodejs",
         icon: NodejsSvg,
       },
-      {
-        name: "Express",
-        icon: SiExpress,
-      },
-      {
-        name: "Socket.io",
-        icon: SiSocketdotio,
-      },
-      {
-        name: "Flask",
-        icon: SiFlask,
-      },
+      // {
+      //   name: "Express",
+      //   icon: SiExpress,
+      // },
+      // {
+      //   name: "Socket.io",
+      //   icon: SiSocketdotio,
+      // },
+      // {
+      //   name: "Flask",
+      //   icon: SiFlask,
+      // },
     ],
   },
   {
@@ -148,10 +148,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Postgress",
         icon: PostgressSvg,
       },
-      {
-        name: "Prisma",
-        icon: SiPrisma,
-      },
+      // {
+      //   name: "Prisma",
+      //   icon: SiPrisma,
+      // },
     ],
   },
   {
