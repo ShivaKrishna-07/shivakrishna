@@ -9,8 +9,9 @@ import Navbar from "@/components/layout/Navbar";
 import { routes } from "@/data/navigationRoutes";
 import { classNames } from "@/utility/classNames";
 import { Analytics } from "@vercel/analytics/react";
+import Footer from "@/components/layout/Footer";
 
-// Load custom local fonts
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -22,18 +23,18 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-// Load Google Fonts
+
 const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
-// Metadata for SEO
+
 export const metadata: Metadata = {
-  title: "My Awesome App",
-  description: "A great application powered by Next.js",
+  title: "Shiva Krishna",
+  description: "Personel Portfolio showcases my skills, Projects and my contact information",
 };
 
-// RootLayout function
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -46,21 +47,17 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class">
           <AnimatePresence mode="wait" initial={false}>
-            {/* Cursor Trail Effect */}
+            
             <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
 
-            {/* Page Content */}
             <div className="min-h-screen">
-              {/* Navbar */}
               <Navbar routes={routes} />
-
-              {/* Main Content */}
               <main>{children}</main>
+              <Footer/>
             </div>
           </AnimatePresence>
         </ThemeProvider>
 
-        {/* Analytics Integration */}
         <Analytics />
       </body>
     </html>
