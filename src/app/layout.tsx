@@ -1,15 +1,17 @@
+import "./globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
 import { Montserrat } from "next/font/google";
+
 import { ThemeProvider } from "next-themes";
 import CursorTrailCanvas from "@/components/cursor-trail-canvas";
 import { AnimatePresence } from "framer-motion";
-import Navbar from "@/components/layout/Navbar";
+
 import { routes } from "@/data/navigationRoutes";
-import { classNames } from "@/utility/classNames";
-import { Analytics } from "@vercel/analytics/react";
+import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+
+import { Analytics } from "@vercel/analytics/react";
 
 
 const geistSans = localFont({

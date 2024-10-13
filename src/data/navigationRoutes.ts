@@ -1,4 +1,4 @@
-import { NavbarRoutes } from "@/layout/navbar";
+import { NavbarRoutes } from "@/components/layout/Navbar";
 
 export const routes: NavbarRoutes = [
   { title: "Home", href: "/" },

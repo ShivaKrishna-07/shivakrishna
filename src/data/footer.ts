@@ -1,11 +1,17 @@
 import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
+import { HiMail } from "react-icons/hi";
+import { FaLocationDot } from "react-icons/fa6";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
+
+import { FC, SVGProps } from "react";
+import ContactButton from "@/components/contact-form/contact-button";
 
 type FooterCol = {
   title: string;
   links: {
     name: string;
     link: string;
-    icon?: string;
+    icon?: FC<SVGProps<SVGSVGElement>>;
     leavesWebsite: boolean;
   }[];
 };
@@ -26,21 +32,19 @@ export const footer: Footer = {
       links: [
         {
           name: "Home",
+          icon:IoIosArrowDroprightCircle,
           link: "/",
           leavesWebsite: false,
         },
-        // {
-        //   name: "Blog",
-        //   link: "/blog",
-        //   leavesWebsite: false,
-        // },
         {
           name: "About",
+          icon:IoIosArrowDroprightCircle,
           link: "/about",
           leavesWebsite: false,
         },
         {
           name: "Projects",
+          icon:IoIosArrowDroprightCircle,
           link: "/projects",
           leavesWebsite: false,
         },
@@ -52,27 +56,44 @@ export const footer: Footer = {
         {
           name: "GitHub",
           link: "https://github.com/ShivaKrishna-07",
-          icon: "GithubIcon",
+          icon: GithubIcon,
           leavesWebsite: true,
         },
         {
           name: "LinkedIn",
           link: "https://www.linkedin.com/in/shivaaa07/",
-          icon: "LinkedinIcon",
+          icon: LinkedinIcon,
           leavesWebsite: true,
         },
         {
           name: "Twitter",
           link: "https://twitter.com/shiva_123_",
-          icon: "TwitterIcon",
+          icon: TwitterIcon,
           leavesWebsite: true,
         },
-        // {
-        //   name: "Email",
-        //   link: "mailto:contact@braydentw.io",
-        //   icon: "/static/icons/mail-f.svg",
-        //   leavesWebsite: true,
-        // },
+      ],
+    },
+    {
+      title: "Contact Info",
+      links: [
+        {
+          name: "shivakrishna6032@gmail.com",
+          link: "#footer",
+          icon: HiMail,
+          leavesWebsite: false,
+        },
+        {
+          name: "Hyderabad, India-500043",
+          link: "#",
+          icon: FaLocationDot,
+          leavesWebsite: false,
+        },
+        {
+          name: "",
+          link: "#footer",
+          icon: ContactButton,
+          leavesWebsite: false,
+        },
       ],
     },
   ],
