@@ -21,8 +21,7 @@ const page = () => {
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
-              I am currently building new projects and learning backend
-              development to expand my skill set beyond frontend.
+            I am focusing on real-time applications that address practical challenges, aiming to make a positive impact by providing effective solutions for everyday problems.
             </span>
             <p className="mt-10 text-base md:text-xl">
               Hey, hey, hey... I've got even more on{" "}

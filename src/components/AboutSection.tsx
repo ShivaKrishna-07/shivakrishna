@@ -1,74 +1,78 @@
-import Image from "next/image";
-import Link from "next/link";
+import React from "react";
+// import { Link as ScrollLink } from "react-scroll";
 
-import { AnimatePresence } from "framer-motion";
-
-import FadeUp from "@/animation/fade-up";
-import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "../../public/images/heroProfile.png";
-
-export default function AboutHero() {
+function Hero() {
   return (
-    <div className="mx-auto mt-0 flex max-w-7xl flex-col items-center gap-6 px-6 pt-20 text-center sm:px-14 md:mt-20 md:px-20 lg:mt-0 lg:flex-row lg:text-left">
-      {/* <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
-        <AnimatePresence>
-          <FadeUp key="hero-image" duration={0.6}>
-            <Image
-              src={heroProfileImg}
-              width={100}
-              height={100}
-              className="h-auto w-full px-0 xl:px-16"
-              alt="hero image"
-              unoptimized
-            />
-          </FadeUp>
-        </AnimatePresence>
-      </div> */}
-      <div className="sm:1/2 mt-10 w-full lg:w-1/2">
-        <AnimatePresence>
-          <FadeUp key="title-greeting" duration={0.6}>
-            <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              Hi, I&apos;m Shiva Krishna
-            </h1>
-          </FadeUp>
-          <FadeUp key="description-1" duration={0.6} delay={0.2}>
-            <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
-              excellence and user-centered thinking to every project I work on.
-            </p>
-          </FadeUp>
-          <FadeUp key="description-2" duration={0.6} delay={0.4}>
-            <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Explore my latest{" "}
-              <Link href="/projects" className="underline underline-offset-4">
-                <span className="text-accent">projects</span>
-              </Link>{" "}
-              showcasing my expertise in Reactjs, Nextjs, Javascript, Typescript
-              and web development.
-            </p>
-          </FadeUp>
-          <FadeRight
-            key="hero-location"
-            duration={0.6}
-            delay={0.8}
-            className="mr-0 mt-8 flex items-center justify-center gap-4 lg:mr-8 lg:justify-end"
-          >
-            <div className="relative flex w-12 gap-4 overflow-hidden rounded-md">
-              <Image
-                className="-z-10 h-full w-full bg-cover bg-no-repeat"
-                alt="Indian flag"
-                src="https://flagcdn.com/in.svg"
-                width={15}
-                height={15}
-              />
-            </div>
-            <span className="text-lg font-medium text-foreground">
-              Mumbai, India
-            </span>
-          </FadeRight>
-        </AnimatePresence>
+    <>
+      <div
+        className="relative heroElem w-full pt-10 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
+        style={{ maxWidth: "1200px" }}
+      >
+        <p className="text-xl mb-5">Hey, I'm Shiva Krishna.</p>
+        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
+          I enjoy <span className="text-[#26a0a6]">building</span> and{" "}
+          <span className="text-[#26a0a6]">designing</span> for the
+          web.
+          <img
+            className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
+            style={{ animationDelay: "0.1s" }}
+            src="/static/doodles/pop2.svg"
+          />
+          <img
+            className="sqD squiggle-hero-nextjs hidden top-[75px] right-0 w-11"
+            style={{ animationDelay: "0.2s" }}
+            src="/static/doodles/nextjs.svg"
+          />
+          <img
+            className="sqD bottom-[-300px]  -rotate-45 -right-1/4 sm:right-[-20%] lg:bottom-[-310px] lg:right-[-120px] w-[400px]"
+            style={{ animationDelay: "0.3s" }}
+            src="/static/doodles/coder.svg"
+          />
+          <img
+            className="sqD hidden sm:block bottom-[-340px] left-[-180px]"
+            style={{ animationDelay: "0.4s" }}
+            src="/static/doodles/coder.svg"
+          />
+          <img
+            className="sqD hidden sm:block left-[100px] lg:left-[160px] bottom-[-150px]"
+            style={{ animationDelay: "0.5s" }}
+            src="/static/doodles/js.svg"
+          />
+          <img
+            className="sqD bottom-[-320px] right-[65%] sm:right-[45%]"
+            style={{ animationDelay: "0.6s" }}
+            src="/static/doodles/dino.svg"
+          />
+          <img
+            className="sqD right-[-60px] sm:right-0 bottom-[-180px] lg:[5%]"
+            style={{ animationDelay: "0.7s" }}
+            src="/static/doodles/paintbrush.svg"
+          />
+          <img
+            className="sqD squiggle-hero-pop1 hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[120px]"
+            src="/static/doodles/pop1.svg"
+          />
+          <img
+            className="sqD left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-40"
+            style={{ animationDelay: "0.9s" }}
+            src="/static/doodles/code.svg"
+          />
+        </h1>
+        {/* <ScrollLink
+          activeClass="active"
+          to="learnmore"
+          spy={true}
+          offset={-30}
+          smooth={true}
+          duration={500}
+        >
+          <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
+            Tell me more
+          </div>
+        </ScrollLink> */}
       </div>
-    </div>
+    </>
   );
 }
+
+export default Hero;
