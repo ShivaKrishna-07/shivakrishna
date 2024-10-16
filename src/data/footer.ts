@@ -84,7 +84,7 @@ export const footer: Footer = {
         },
         {
           name: "Hyderabad, India-500043",
-          link: "#",
+          link: "#footer",
           icon: FaLocationDot,
           leavesWebsite: false,
         },

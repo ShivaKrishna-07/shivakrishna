@@ -22,7 +22,7 @@ function Footer() {
                         <a
                           href={item.link}
                           target="_blank"
-                          className="items-center flex hover:underline"
+                          className="items-center flex "
                         >
                           {item.icon && (
                             <span className="pr-2 -mb-1">
@@ -46,9 +46,6 @@ function Footer() {
                     
                   );
                 })}
-                {/* <div className="flex justify-center">
-                        <ContactButton />
-                      </div> */}
               </div>
             </div>
           );

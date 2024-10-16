@@ -1,88 +1,48 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
-import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
-export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
-  {
-    index: 0,
-    title: "Zencare",
-    href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "appwrite", "Vercel"],
-    image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
-    },
-  },
-  {
-    index: 1,
-    title: "Ezine",
-    href: "/projects",
-    tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Scss",
-      "Vite",
-      "React-router-dom",
-      "Redux",
-      "Vercel",
-    ],
-    image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
-    },
-  },
-  {
-    index: 2,
-    title: "Kanban",
-    href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
-    image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
-    },
-  },
-];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Zencare",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
+      "/images/projects/zencare.png",
+      "/images/projects/zencareNewAppointment.png",
+      "/images/projects/zencareMedicalInfo.png",
+      "/images/projects/zencareAppointmentSuccess.png",
+      "/images/projects/zencareAdminDashboard.png",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "Developed a healthcare management system using Next.js and TypeScript for streamlined patient and appointment management.",
+    sourceCodeHref: "https://github.com/ShivaKrishna-07/zencare",
+    liveWebsiteHref: "https://zenncare.vercel.app/",
   },
   {
-    name: "Kanban app",
+    name: "Spotter",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
+      "/images/projects/spotterMobile.png",
+      "/images/projects/spotterBrush.png",
+      "/images/projects/spotterBottle.png",
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "Develop a web application for real-time object detection using TensorFlow.js, enabling users to identify objects directly within their browser",
+    sourceCodeHref: "https://github.com/ShivaKrishna-07/spotter",
+    liveWebsiteHref: "https://spotterr.vercel.app/",
   },
   {
-    name: "Many Games",
+    name: "Code Pen",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
+      "/images/projects/codepen.png",
+      "/images/projects/codepenRonaldo.png",
+      "/images/projects/codepenWelcome.png",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "Created a Sandbox environment where users can write, edit and run the HTML, CSS and JavaScript code in real time",
+    sourceCodeHref: "https://github.com/ShivaKrishna-07/Code-Pen",
+    liveWebsiteHref: "https://shivakrishna-07.github.io/Code-Pen",
   },
   {
     name: "My portfolio",
@@ -93,33 +53,96 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
+    sourceCodeHref: "https://github.com/ShivaKrishna-07/shivakrishna",
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
-    name: "Covid Tracker",
+    name: "Spice Tracker",
     favicon: "/images/projects/logos/covidtracker.ico",
     imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
+      "/images/projects/spicetracker.png",
+      "/images/projects/spiceTrackerRecipe.png",
+      "/images/projects/spicetrackerRecipeInfo.png",
     ],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+      "Spice Tracker is a dynamic recipe finder website where users can search and explore their favorite recipes",
+    sourceCodeHref: "https://github.com/BUMBAIYA/Spice-Tracker",
+    liveWebsiteHref: "https://shivakrishna-07.github.io/Spice-Tracker/",
   },
   {
-    name: "Stock predictor",
+    name: "Weathr",
     favicon: "/images/projects/logos/stockpredictor.ico",
     imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
+      "/images/projects/weathr1.png",
+      "/images/projects/weathr2.png",
+      "/images/projects/weathr3.png",
     ],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "Get Live Weather Of Any City At Any Time. It is a simple weather forecasting website which information regarding today's weather.",
+      sourceCodeHref: "https://github.com/ShivaKrishna-07/Weathr",
+      liveWebsiteHref: "https://weathr-phi.vercel.app/",
+  },
+  {
+    name: "Todoz",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/todoz.png",
+      "/images/projects/todoztasks.png",
+    ],
+    description:
+      "Developed a user friendly To Do List application using MERN stack where you can create, update, read and delete your Todoz",
+      sourceCodeHref: "https://shivakrishna-07.github.io/To-Do-List/",
+  },
+  {
+    name: "FlipTxt",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/fliptxtDark.png",
+      "/images/projects/fliptxtLight.png",
+      "/images/projects/fliptxtAbout.png",
+    ],
+    description:
+      "Whether you need to convert text to uppercase,lowercase,copy it,clear it,or perform various other transformations, we've got you covered.",
+      sourceCodeHref: "https://github.com/ShivaKrishna-07/FlipTxt",
+      liveWebsiteHref: "https://shivakrishna-07.github.io/FlipTxt/",
+  },
+  {
+    name: "Thala for a Reason",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/thalaforareason.png",
+      "/images/projects/thalaforareasonSuccess.png",
+      "/images/projects/thalaforareasonFail.png",
+    ],
+    description:
+      "Enter any word, number, or even a sentence, and watch the system work its magic to reveal a connection to the iconic number 7.",
+      sourceCodeHref: "https://github.com/ShivaKrishna-07/thala-for-reason",
+      liveWebsiteHref: "https://shivakrishna-07.github.io/thala-for-reason/",
+  },
+  {
+    name: "EcoDroneHub",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/ecodronehub.png",
+      "/images/projects/ecodronehubAbout.png",
+      "/images/projects/ecodronehubService1.png",
+      "/images/projects/ecodronehubService2.png",
+      "/images/projects/ecodronehubService3.png",
+    ],
+    description:
+      "This project aims to leverage drones to bring about a transformative impact on environmental monitoring and sustainable development.",
+      sourceCodeHref: "https://github.com/ShivaKrishna-07/EcoDroneHub",
+      liveWebsiteHref: "https://shivakrishna-07.github.io/EcoDroneHub/",
+  },
+  {
+    name: "Bookify",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/bookify.png",
+    ],
+    description:
+      "This project is designed for learning Firebase and involves storing and selling book details. It provides a practical application for managing book inventory and transactions.",
+      sourceCodeHref: "https://github.com/ShivaKrishna-07/Bookify",
+      liveWebsiteHref: "https://shivakrishna-07.github.io/Bookify/",
   },
 ];
