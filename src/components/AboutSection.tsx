@@ -1,15 +1,14 @@
 import React from "react";
-// import { Link as ScrollLink } from "react-scroll";
 
 function Hero() {
   return (
     <>
       <div
-        className="relative heroElem w-full pt-10 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
+        className="relative max-w-full heroElem w-full pt-10 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
         <p className="text-xl mb-5">Hey, I'm Shiva Krishna.</p>
-        <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
+        <h1 className="heroTitle  inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
           I enjoy <span className="text-[#26a0a6]">building</span> and{" "}
           <span className="text-[#26a0a6]">designing</span> for the
           web.
@@ -24,9 +23,9 @@ function Hero() {
             src="/static/doodles/nextjs.svg"
           />
           <img
-            className="sqD bottom-[-300px]  -rotate-45 -right-1/4 sm:right-[-20%] lg:bottom-[-310px] lg:right-[-120px] w-[400px]"
+            className="sqD bottom-[-300px] -right-1/4 sm:right-[-20%] lg:bottom-[-310px] xs:right-[100px] lg:right-[-120px]"
             style={{ animationDelay: "0.3s" }}
-            src="/static/doodles/coder.svg"
+            src="/static/doodles/html.svg"
           />
           <img
             className="sqD hidden sm:block bottom-[-340px] left-[-180px]"
@@ -44,12 +43,12 @@ function Hero() {
             src="/static/doodles/dino.svg"
           />
           <img
-            className="sqD right-[-60px] sm:right-0 bottom-[-180px] lg:[5%]"
+            className="sqD right-[-60px] xs:right-[100px] bottom-[-180px] lg:[5%]"
             style={{ animationDelay: "0.7s" }}
             src="/static/doodles/paintbrush.svg"
           />
           <img
-            className="sqD squiggle-hero-pop1 hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[120px]"
+            className="sqD  hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[120px]"
             src="/static/doodles/pop1.svg"
           />
           <img
@@ -58,18 +57,6 @@ function Hero() {
             src="/static/doodles/code.svg"
           />
         </h1>
-        {/* <ScrollLink
-          activeClass="active"
-          to="learnmore"
-          spy={true}
-          offset={-30}
-          smooth={true}
-          duration={500}
-        >
-          <div className="cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors">
-            Tell me more
-          </div>
-        </ScrollLink> */}
       </div>
     </>
   );
