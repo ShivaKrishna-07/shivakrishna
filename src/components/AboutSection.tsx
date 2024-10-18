@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Hero() {
   return (
@@ -12,46 +13,55 @@ function Hero() {
           I enjoy <span className="text-[#26a0a6]">building</span> and{" "}
           <span className="text-[#26a0a6]">designing</span> for the
           web.
-          <img
+          <Image
+          alt=""
             className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
             style={{ animationDelay: "0.1s" }}
             src="/static/doodles/pop2.svg"
           />
-          <img
+          <Image
+          alt=""
             className="sqD squiggle-hero-nextjs hidden top-[75px] right-0 w-11"
             style={{ animationDelay: "0.2s" }}
             src="/static/doodles/nextjs.svg"
           />
-          <img
+          <Image
+          alt=""
             className="sqD bottom-[-300px] -right-1/4 sm:right-[-20%] lg:bottom-[-310px] xs:right-[100px] lg:right-[-120px]"
             style={{ animationDelay: "0.3s" }}
             src="/static/doodles/html.svg"
           />
-          <img
+          <Image
+          alt=""
             className="sqD hidden sm:block bottom-[-340px] left-[-180px]"
             style={{ animationDelay: "0.4s" }}
             src="/static/doodles/coder.svg"
           />
-          <img
+          <Image
+          alt=""
             className="sqD hidden sm:block left-[100px] lg:left-[160px] bottom-[-150px]"
             style={{ animationDelay: "0.5s" }}
             src="/static/doodles/js.svg"
           />
-          <img
+          <Image
+          alt=""
             className="sqD bottom-[-320px] right-[65%] sm:right-[45%]"
             style={{ animationDelay: "0.6s" }}
             src="/static/doodles/dino.svg"
           />
-          <img
+          <Image
+          alt=""
             className="sqD right-[-60px] xs:right-[100px] bottom-[-180px] lg:[5%]"
             style={{ animationDelay: "0.7s" }}
             src="/static/doodles/paintbrush.svg"
           />
-          <img
+          <Image
+          alt=""
             className="sqD  hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[120px]"
             src="/static/doodles/pop1.svg"
           />
-          <img
+          <Image
+          alt=""
             className="sqD left-[-35px] bottom-[-85px] sm:bottom-[-100px] sm:left-5 opacity-40"
             style={{ animationDelay: "0.9s" }}
             src="/static/doodles/code.svg"

@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { footer } from "@/data/footer";
 import { GithubIcon } from "../icons";
+import Image from "next/image";
 
 
 function Footer() {
@@ -58,7 +59,8 @@ function Footer() {
             <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
               
               <span>
-                <img
+                <Image
+                alt=""
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
                   width="40"
                   className="invert"
@@ -67,7 +69,8 @@ function Footer() {
                 <span className="sr-only">NextJS</span>
               </span>
               <span>
-                <img
+                <Image
+                alt=""
                   src="icons/tailwindcss.svg"
                   width="26"
                   title="TailwindCSS"
@@ -75,7 +78,8 @@ function Footer() {
                 <span className="sr-only">TailwindCSS</span>
               </span>
               <span>
-                <img
+                <Image
+                alt=""
                   src="icons/typescript.svg"
                   width="20"
                   title="TypeScript"

@@ -18,11 +18,6 @@ type FooterCol = {
 
 type Footer = {
   columns: FooterCol[];
-  support: {
-    buymeacoffee: string;
-    paypal: string;
-    message: string;
-  };
 };
 
 export const footer: Footer = {
@@ -97,9 +92,4 @@ export const footer: Footer = {
       ],
     },
   ],
-  support: {
-    buymeacoffee: "braydenw",
-    paypal: "braydentw",
-    message: "I appreciate your support very much! 💙",
-  },
 };

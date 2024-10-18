@@ -1,5 +1,4 @@
 "use client"
-import { useMemo, useState } from "react";
 import Link from "next/link";
 
 import { ArrowTopRight } from "@/components/icons";

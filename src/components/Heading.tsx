@@ -1,9 +1,12 @@
+import Image from "next/image";
+
 function Heading() {
   return (
     <div className={`w-full text-center relative`}>
       <h1 className=" font-bold text-[#26a0a6] text-5xl sm:text-6xl inline-block w-auto mx-auto mb-8 relative">
         Projects
-        <img
+        <Image
+        alt=""
           className="sqD w-10 -top-8 -right-8 absolute"
           src="/static/doodles/code.svg"
         />

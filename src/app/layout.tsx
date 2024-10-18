@@ -4,7 +4,6 @@ import localFont from "next/font/local";
 import { Montserrat } from "next/font/google";
 
 import { ThemeProvider } from "next-themes";
-import CursorTrailCanvas from "@/components/cursor-trail-canvas";
 import { AnimatePresence } from "framer-motion";
 
 import { routes } from "@/data/navigationRoutes";
@@ -53,7 +52,6 @@ export default function RootLayout({
         <ThemeProvider attribute="class">
           <AnimatePresence mode="wait" initial={false}>
             
-            <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
 
             <div className="min-h-screen">
               <Navbar routes={routes} />

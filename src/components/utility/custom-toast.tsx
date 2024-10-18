@@ -12,7 +12,6 @@ export interface CustomToastProps {
 export default function CustomToast({
   children,
   duration = 3000,
-  open,
   onClose,
   className,
 }: CustomToastProps) {
