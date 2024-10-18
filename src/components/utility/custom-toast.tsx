@@ -25,10 +25,6 @@ export default function CustomToast({
     };
   }, [duration, onClose]);
 
-  if (typeof window === "undefined" || !open) {
-    return null;
-  }
-
   return createPortal(
     <div className={className}>{children}</div>,
     document.body,

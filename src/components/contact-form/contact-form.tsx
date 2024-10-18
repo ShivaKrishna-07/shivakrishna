@@ -79,7 +79,7 @@ export default function ContactForm({
         onSubmit={handleSubmit}
         validateOnChange
       >
-        <Form className="mt-6 flex flex-col gap-3">
+        <Form action="https://formsubmit.co/shivaaaaaa07@gmail.com"  method="POST" className="mt-6 flex flex-col gap-3">
           {FormFieldsData.map((form) => (
             <div key={form.name} className="flex flex-col gap-1">
               <div>
