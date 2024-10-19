@@ -69,7 +69,7 @@ export const footer: Footer = {
       ],
     },
     {
-      title: "Contact Info",
+      title: "Contact Info ",
       links: [
         {
           name: "shivakrishna6032@gmail.com",
