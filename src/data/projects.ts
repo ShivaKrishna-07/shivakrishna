@@ -93,6 +93,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Developed a user friendly To Do List application using MERN stack where you can create, update, read and delete your Todoz",
       sourceCodeHref: "https://shivakrishna-07.github.io/To-Do-List/",
+      liveWebsiteHref: "https://todooz.vercel.app",
   },
   {
     name: "FlipTxt",
