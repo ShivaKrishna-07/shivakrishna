@@ -4,6 +4,34 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
+    name: "Genify.ai",
+    favicon: "/images/projects/logos/jsontree.ico",
+    imageUrl: [
+      "/images/projects/genify.png",
+      "/images/projects/genifyDashboard.png",
+      "/images/projects/genifyAIGenerator.png",
+      "/images/projects/genifyHistory.png",
+      "/images/projects/genifyBilling.png",
+    ],
+    description:
+      "An AI-driven content generation app crafted with Next.js, designed to streamline and inspire content creation. It offers a range of features to help users quickly produce quality digital content.",
+    sourceCodeHref: "https://github.com/ShivaKrishna-07/genify.ai",
+    liveWebsiteHref: "https://genify--ai.vercel.app/",
+  },
+  {
+    name: "Ezine",
+    favicon: "/images/projects/logos/jsontree.ico",
+    imageUrl: [
+      "/images/projects/ezine.png",
+      "/images/projects/ezineHome.png",
+      "/images/projects/ezineBlogPage.png",
+    ],
+    description:
+      "A dynamic blog website built with Next.js and powered by Sanity Studio, offering seamless content management and a fast, responsive user experience. Perfect for easily creating, editing, and showcasing blog posts.",
+    sourceCodeHref: "https://github.com/ShivaKrishna-07/ezine",
+    liveWebsiteHref: "https://eziine.vercel.app/",
+  },
+  {
     name: "Zencare",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [

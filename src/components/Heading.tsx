@@ -6,6 +6,8 @@ function Heading() {
       <h1 className=" font-bold text-[#26a0a6] text-5xl sm:text-6xl inline-block w-auto mx-auto mb-8 relative">
         Projects
         <Image
+        width={10}
+        height={10}
         alt=""
           className="sqD w-10 -top-8 -right-8 absolute"
           src="/static/doodles/code.svg"

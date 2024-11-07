@@ -63,6 +63,7 @@ function Footer() {
                 alt=""
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
                   width="40"
+                  height={40}
                   className="invert"
                   title="NextJS"
                 />
@@ -73,6 +74,7 @@ function Footer() {
                 alt=""
                   src="icons/tailwindcss.svg"
                   width="26"
+                  height={26}
                   title="TailwindCSS"
                 />
                 <span className="sr-only">TailwindCSS</span>
@@ -82,6 +84,7 @@ function Footer() {
                 alt=""
                   src="icons/typescript.svg"
                   width="20"
+                  height={20}
                   title="TypeScript"
                 />
                 <span className="sr-only">Type Script</span>

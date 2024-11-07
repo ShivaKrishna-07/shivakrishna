@@ -17,5 +17,4 @@ export const siteMetadata = {
   twitter: "https://twitter.com/shiva_123_",
   linkedin: "https://www.linkedin.com/in/shivaaa07/",
   locale: "en-US",
-  googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
 };
