@@ -5,7 +5,7 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Genify.ai",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "/images/projects/logos/logo.svg",
     imageUrl: [
       "/images/projects/genify.png",
       "/images/projects/genifyDashboard.png",
@@ -33,7 +33,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Zencare",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "/images/projects/logos/zencare.ico",
     imageUrl: [
       "/images/projects/zencare.png",
       "/images/projects/zencareNewAppointment.png",
@@ -74,7 +74,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "My portfolio",
-    favicon: "/favicon.ico",
+    favicon: "/images/projects/logos/portfolio.png",
     imageUrl: [
       "/images/projects/portfolio.png",
       "/images/projects/portfolioAbout.png",
@@ -109,7 +109,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Get Live Weather Of Any City At Any Time. It is a simple weather forecasting website which information regarding today's weather.",
       sourceCodeHref: "https://github.com/ShivaKrishna-07/Weathr",
-      liveWebsiteHref: "https://weathr-phi.vercel.app/",
+      liveWebsiteHref: "https://weathrr-app.vercel.app/",
   },
   {
     name: "Todoz",
