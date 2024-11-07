@@ -2,7 +2,7 @@
 
 This portfolio is crafted using [Next.js](https://nextjs.org/)
 
-## 🖥️ Technologies Used
+## 🖥️ Technologies Used 
 
 - [Nextjs.js](https://nextjs.org/) : A React-based, open-source framework for building efficient and scalable web applications.
 - [Tailwind CSS](https://tailwindcss.com) : A utility-first CSS framework for rapid UI development.
