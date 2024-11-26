@@ -32,21 +32,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://eziine.vercel.app/",
   },
   {
-    name: "Zencare",
-    favicon: "/images/projects/logos/zencare.ico",
-    imageUrl: [
-      "/images/projects/zencare.png",
-      "/images/projects/zencareNewAppointment.png",
-      "/images/projects/zencareMedicalInfo.png",
-      "/images/projects/zencareAppointmentSuccess.png",
-      "/images/projects/zencareAdminDashboard.png",
-    ],
-    description:
-      "Developed a healthcare management system using Next.js and TypeScript for streamlined patient and appointment management.",
-    sourceCodeHref: "https://github.com/ShivaKrishna-07/zencare",
-    liveWebsiteHref: "https://zenncare.vercel.app/",
-  },
-  {
     name: "Spotter",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
@@ -110,6 +95,21 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "Get Live Weather Of Any City At Any Time. It is a simple weather forecasting website which information regarding today's weather.",
       sourceCodeHref: "https://github.com/ShivaKrishna-07/Weathr",
       liveWebsiteHref: "https://weathrr-app.vercel.app/",
+  },
+  {
+    name: "Zencare",
+    favicon: "/images/projects/logos/zencare.ico",
+    imageUrl: [
+      "/images/projects/zencare.png",
+      "/images/projects/zencareNewAppointment.png",
+      "/images/projects/zencareMedicalInfo.png",
+      "/images/projects/zencareAppointmentSuccess.png",
+      "/images/projects/zencareAdminDashboard.png",
+    ],
+    description:
+      "Developed a healthcare management system using Next.js and TypeScript for streamlined patient and appointment management.",
+    sourceCodeHref: "https://github.com/ShivaKrishna-07/zencare",
+    liveWebsiteHref: "https://zenncare.vercel.app/",
   },
   {
     name: "Todoz",
