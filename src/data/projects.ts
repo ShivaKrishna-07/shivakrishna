@@ -19,6 +19,20 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://genify--ai.vercel.app/",
   },
   {
+    name: "Chit Chat",
+    favicon: "/images/projects/logos/chat.png",
+    imageUrl: [
+      "/images/projects/chitChatHome.png",
+      "/images/projects/chitChatLogin.png",
+      "/images/projects/chitChatProfile.png",
+      "/images/projects/chitChatThemes.png",
+    ],
+    description:
+      "A real-time chat application designed for seamless communication, featuring instant messaging, secure authentication, and live online user tracking. Built with a focus on user experience, the app ensures smooth, real-time interactions and secure conversations.",
+    sourceCodeHref: "https://github.com/ShivaKrishna-07/chit-chat",
+    liveWebsiteHref: "https://chit-chat-9slv.onrender.com/",
+  },
+  {
     name: "Ezine",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
