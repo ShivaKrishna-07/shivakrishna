@@ -12,6 +12,7 @@ export default function Home() {
       <HeroSection/>
       <SkillsShowcase skills={SKILLS_DATA} />
       <ProjectShowcase/>
+      
     </div>
   );
 }
