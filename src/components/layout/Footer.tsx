@@ -4,10 +4,12 @@ import { footer } from "@/data/footer";
 import { GithubIcon } from "../icons";
 import Image from "next/image";
 
-
 function Footer() {
   return (
-    <footer id="footer" className="flex flex-col max-w-screen px-5 py-10 border-t border-fun-pink-darker z-5 bg-bg">
+    <footer
+      id="footer"
+      className="flex flex-col max-w-screen px-5 py-10 border-t border-fun-pink-darker z-5 bg-bg"
+    >
       <div className="w-full max-w-4xl m-auto grid grid-cols-2 sm:grid-cols-3 justify-between items-start">
         {footer.columns.map((item, index) => {
           return (
@@ -27,7 +29,7 @@ function Footer() {
                         >
                           {item.icon && (
                             <span className="pr-2 -mb-1">
-                              <item.icon className="text-accent w-[18px] transition-colors duration-150 hover:text-accent-foreground" />
+                              <item.icon className="text-accent w-[20px] transition-colors duration-150 hover:text-accent-foreground" />
                             </span>
                           )}
                           {item.name}
@@ -39,12 +41,11 @@ function Footer() {
                               <item.icon className="text-accent  w-[18px] transition-colors duration-150 hover:text-accent-foreground" />
                             </span>
                           )}
-                          {item.name}
+                          <p className="whitespace-nowrap">{item.name}</p>
+                          
                         </Link>
                       )}
-                      
                     </div>
-                    
                   );
                 })}
               </div>
@@ -57,10 +58,9 @@ function Footer() {
           <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
             Made with{" "}
             <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
-              
               <span>
                 <Image
-                alt=""
+                  alt=""
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
                   width="40"
                   height={40}
@@ -71,7 +71,7 @@ function Footer() {
               </span>
               <span>
                 <Image
-                alt=""
+                  alt=""
                   src="icons/tailwindcss.svg"
                   width="26"
                   height={26}
@@ -81,7 +81,7 @@ function Footer() {
               </span>
               <span>
                 <Image
-                alt=""
+                  alt=""
                   src="icons/typescript.svg"
                   width="20"
                   height={20}

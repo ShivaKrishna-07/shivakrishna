@@ -83,12 +83,12 @@ export const footer: Footer = {
           icon: FaLocationDot,
           leavesWebsite: false,
         },
-        {
-          name: "",
-          link: "#footer",
-          icon: ContactButton,
-          leavesWebsite: false,
-        },
+        // {
+        //   name: "",
+        //   link: "#footer",
+        //   icon: ContactButton,
+        //   leavesWebsite: false,
+        // },
       ],
     },
   ],
