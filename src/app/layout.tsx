@@ -31,7 +31,7 @@ const montserrat = Montserrat({
 
 
 export const metadata: Metadata = {
-  title: "Shiva Krishna",
+  title: "Shiva Krishna - Portfolio",
   description: "Personel Portfolio showcases my skills, Projects and my contact information",
   icons: {
     icon: '/favicon.png',

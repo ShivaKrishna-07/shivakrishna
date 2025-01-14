@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -11,6 +11,7 @@ import ThemeSwitch from "@/components/utility/theme-switch";
 import MobileMenu from "@/components/utility/mobile-menu";
 import { classNames } from "@/utility/classNames";
 import Image from "next/image";
+import { Code2 } from "lucide-react";
 
 export type NavbarRoute = {
   title: string;
@@ -41,7 +42,7 @@ export default function Navbar(props: NavbarProps) {
           aria-label="Return to home page"
         >
           <div className="relative h-12 w-12 sm:h-14 sm:w-14">
-            <Image src='/favicon.png' className="h-[3rem] w-[2rem]" alt="logo" width={100} height={100} />
+            <Code2 className="text-sky-400 font-extrabold size-12" />
           </div>
         </Link>
         <nav className="hidden items-center gap-2 rounded-full px-2 py-2 shadow-md ring-1 ring-zinc-200 backdrop-blur-md dark:ring-accent/50 md:flex">
@@ -58,7 +59,7 @@ export default function Navbar(props: NavbarProps) {
                       pathName === _link.href
                         ? "font-semibold text-background dark:hover:text-foreground"
                         : "text-foreground",
-                      "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200",
+                      "group relative mx-3 rounded-full px-3 py-2 transition-colors duration-200"
                     )}
                   >
                     {_link.href === pathName && (
