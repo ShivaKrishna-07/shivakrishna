@@ -10,7 +10,6 @@ import MenuLogo from "@/components/utility/menu-button";
 import ThemeSwitch from "@/components/utility/theme-switch";
 import MobileMenu from "@/components/utility/mobile-menu";
 import { classNames } from "@/utility/classNames";
-import Image from "next/image";
 import { Code2 } from "lucide-react";
 
 export type NavbarRoute = {
