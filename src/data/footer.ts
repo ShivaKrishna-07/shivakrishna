@@ -4,7 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 import { FC, SVGProps } from "react";
-import ContactButton from "@/components/contact-form/contact-button";
+// import ContactButton from "@/components/contact-form/contact-button";
 
 type FooterCol = {
   title: string;
