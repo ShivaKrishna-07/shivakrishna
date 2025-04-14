@@ -6,7 +6,7 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
-    --border: 240 5.9% 90%; /* This variable should be used in your class */
+    --border: 240 5.9% 90%; 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --accent: 183 65% 35%;
