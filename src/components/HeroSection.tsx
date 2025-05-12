@@ -98,7 +98,7 @@ export default function HeroSection() {
             <FadeUp key="resume-button" duration={0.6} delay={0.6}>
               <div className="pointer-events-auto mt-8 flex justify-center">
                 <a
-                  href="https://drive.google.com/your-resume-link"
+                  href="https://drive.google.com/file/d/175RHp1FBzianf_hNm0T3PUsvIP5Ov5NB/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-teal-500 hover:bg-teal-600 text-black  px-6 py-2 rounded-full font-bold transition-colors"
