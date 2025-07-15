@@ -3,7 +3,13 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import FadeUp from "@/animation/fade-up";
-import { SiGeeksforgeeks, SiGithub, SiLeetcode, SiLinkedin, SiX } from "react-icons/si";
+import {
+  SiGeeksforgeeks,
+  SiGithub,
+  SiLeetcode,
+  SiLinkedin,
+  SiX,
+} from "react-icons/si";
 
 export default function HeroSection() {
   const [scrollY, setScrollY] = useState(0);
@@ -13,28 +19,28 @@ export default function HeroSection() {
     {
       icon: <SiGithub className="size-7" />,
       href: "https://github.com/ShivaKrishna-07",
-      label: "GitHub"
+      label: "GitHub",
     },
     {
       icon: <SiLinkedin className="size-7" />,
       href: "https://www.linkedin.com/in/shivaaa07/",
-      label: "LinkedIn"
+      label: "LinkedIn",
     },
     {
       icon: <SiX className="size-7" />,
       href: "https://x.com/shiva_123_",
-      label: "X"
+      label: "X",
     },
     {
       icon: <SiLeetcode className="size-7" />,
       href: "https://leetcode.com/u/shiva__7/",
-      label: "Leetcode"
+      label: "Leetcode",
     },
     {
       icon: <SiGeeksforgeeks className="size-7" />,
       href: "https://www.geeksforgeeks.org/user/shiva__07/",
-      label: "GeeksForGeeks"
-    }
+      label: "GeeksForGeeks",
+    },
   ];
 
   let progress = 0;
@@ -68,7 +74,7 @@ export default function HeroSection() {
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
               <h1 className="bg-accent text-center bg-clip-text py-2 text-4xl font-bold text-transparent sm:text-6xl">
-                HEY, I'M SHIVA KRISHNA
+                Hi, I'M SHIVA KRISHNA
               </h1>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
@@ -87,7 +93,7 @@ export default function HeroSection() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-teal-500  transition-colors"
+                    className="text-[#26a0a6]  transition-colors"
                     aria-label={link.label}
                   >
                     {link.icon}
@@ -98,10 +104,10 @@ export default function HeroSection() {
             <FadeUp key="resume-button" duration={0.6} delay={0.6}>
               <div className="pointer-events-auto mt-8 flex justify-center">
                 <a
-                  href="https://drive.google.com/your-resume-link"
+                  href="https://drive.google.com/file/d/1ciUwWx94gpvFi17tf7wtjoMdLB5XMAks/view"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-teal-500 hover:bg-teal-600 text-black  px-6 py-2 rounded-full font-bold transition-colors"
+                  className="bg-[#26a0a6] hover:bg-teal-600 text-white dark:text-black  px-6 py-2 rounded-full font-bold transition-colors"
                 >
                   Resume
                 </a>
