@@ -1,5 +1,4 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 
 export const PROJECTS_CARD: ProjectCardProps[] = [

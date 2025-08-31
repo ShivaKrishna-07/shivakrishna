@@ -1,4 +1,4 @@
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
+import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { HiMail } from "react-icons/hi";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
