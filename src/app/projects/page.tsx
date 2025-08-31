@@ -14,9 +14,9 @@ const page = () => {
             ))}
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
-            <span className="text-xl font-bold md:text-2xl">
+            {/* <span className="text-xl font-bold md:text-2xl">
             I am focusing on real-time applications that address practical challenges, aiming to make a positive impact by providing effective solutions for everyday problems.
-            </span>
+            </span> */}
             <p className="mt-10 text-base md:text-xl">
               Hey, hey, hey... I've got even more on{" "}
               <a

@@ -4,6 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 import { FC, SVGProps } from "react";
+import { SiX } from "react-icons/si";
 // import ContactButton from "@/components/contact-form/contact-button";
 
 type FooterCol = {
@@ -61,9 +62,9 @@ export const footer: Footer = {
           leavesWebsite: true,
         },
         {
-          name: "Twitter",
-          link: "https://twitter.com/shiva_123_",
-          icon: TwitterIcon,
+          name: "X",
+          link: "https://x.com/shiva_123_",
+          icon: SiX,
           leavesWebsite: true,
         },
       ],
