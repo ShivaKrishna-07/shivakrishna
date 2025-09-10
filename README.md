@@ -25,3 +25,7 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the portfolio
+
+## 📚 Additional Resources
+
+- **[GitHub Copilot Pro Setup Guide](./COPILOT_PRO_SETUP.md)** - Complete guide for setting up GitHub Copilot Pro in VS Code
