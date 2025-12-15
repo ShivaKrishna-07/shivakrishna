@@ -104,7 +104,7 @@ export default function HeroSection() {
             <FadeUp key="resume-button" duration={0.6} delay={0.6}>
               <div className="pointer-events-auto mt-8 flex justify-center">
                 <a
-                  href="https://drive.google.com/file/d/1B2LQPipaisahKi3vs41gHYr-zbsWK5c_/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1OPayTrQJXK9OYEYZ7Mmir34WkZaPxlUA/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#26a0a6] hover:bg-teal-600 text-white dark:text-black  px-6 py-2 rounded-full font-bold transition-colors"
