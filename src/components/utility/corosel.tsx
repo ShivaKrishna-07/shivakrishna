@@ -36,9 +36,10 @@ const swipePower = (offset: number, velocity: number) => {
 export type CoroselProps = {
   aspectRatio: number;
   images: string[];
+  altText?: string;
 };
 
-export default function Corosel({ aspectRatio = 1, images }: CoroselProps) {
+export default function Corosel({ aspectRatio = 1, images, altText = "Project screenshot" }: CoroselProps) {
   const [[page, direction], setPage] = useState([0, 0]);
 
   const imageIndex = wrap(0, images.length, page);
@@ -56,6 +57,7 @@ export default function Corosel({ aspectRatio = 1, images }: CoroselProps) {
           className="h-full w-full bg-cover"
           style={{ aspectRatio }}
           src={images[imageIndex]}
+          alt={`${altText} ${imageIndex + 1}`}
           custom={direction}
           variants={variant}
           initial="enter"

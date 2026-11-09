@@ -47,7 +47,8 @@ export interface EducationShowcaseListItemProps {
   };
   date: string;
   location: string;
-  description: string;
+  description?: string;
+  highlights?: string[];
 }
 
 export default function EducationShowcaseListItem(
@@ -79,9 +80,17 @@ export default function EducationShowcaseListItem(
         <span className="text-sm font-medium text-foreground xs:text-base">
           {props.date} | {props.location}
         </span>
-        <p className="text-sm font-medium text-muted-foreground xs:text-base">
-          {props.description}
-        </p>
+        {props.highlights ? (
+          <ul className="mt-2 list-disc space-y-1 pl-5 text-sm font-medium text-muted-foreground xs:text-base">
+            {props.highlights.map((highlight) => (
+              <li key={highlight}>{highlight}</li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-sm font-medium text-muted-foreground xs:text-base">
+            {props.description}
+          </p>
+        )}
       </motion.div>
     </li>
   );
